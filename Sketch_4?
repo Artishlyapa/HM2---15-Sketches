@@ -1,0 +1,11 @@
+background (250);
+size (500, 500);
+
+colorMode(HSB, 480);
+  for (int x1 = 20; x1 < 480; x1 += 25) {
+     for (int y1 = 20; y1 < 480; y1 += 25) {
+       fill(y1, 480, 480);
+       noStroke();
+       ellipse (x1, y1, 20, 20);
+     }
+  }
