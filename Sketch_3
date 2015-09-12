@@ -1,0 +1,12 @@
+background (250);
+size (500, 500);
+
+  for (int x1 = 20; x1 < 480; x1 += 25) {
+     for (int y1 = 20; y1 < 480; y1 += 25) {
+       colorMode(HSB, 250);
+       float r = random(250);
+       fill(r, 250, 250);
+       noStroke();
+       ellipse (x1, y1, 20, 20);
+     }
+  }
