@@ -1,0 +1,9 @@
+background (0);
+size (500, 500);
+
+  for (int x1 = 20; x1 < 480; x1 += 25) {
+     for (int y1 = 20; y1 < 480; y1 += 25) {
+    noStroke();
+    ellipse (x1, y1, 20, 20);
+     }
+  }
