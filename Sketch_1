@@ -1,0 +1,8 @@
+size(500,500);
+noStroke();
+background(0);
+
+for (int x1 = 20; x1 < 480; x1 += 25) {
+  noStroke();
+  ellipse (x1, x1, 20, 20);
+}
